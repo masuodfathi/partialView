@@ -1,0 +1,6 @@
+﻿@model partialViewPractice.Models.Book
+
+<div>
+    <h3>@(string.IsNullOrEmpty(Model.title)? "NA" : Model.title)</h3>
+    <p>@(string.IsNullOrEmpty(Model.description) ? "NA" : Model.description)</p>
+</div>
